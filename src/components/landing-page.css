@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	position: relative;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: grey;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+main {
+   position: relative;
+   height: 100vh;
+   /* or height: 73.61% */
+   /* or height: 35vh */
+   /* or height: ANY HEIGHT */
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#header{
+	margin-bottom: 3%;
+}
+
+h2{
+	font-size: 18px;
+}
+
+#bookSearchForm > input{
+	width: 50%;
+	margin-bottom: 2%;
+}
+
+#advanced{
+	font-size: 16px;
+}
