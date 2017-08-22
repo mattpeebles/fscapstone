@@ -1,0 +1,212 @@
+body{
+	text-align: center;
+	padding-bottom: 9%;
+	line-height: 1.75em;
+}
+
+nav,
+footer{
+	background-color: grey;
+}
+
+nav{
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin-top: 3%;
+}
+
+header{
+	margin-top: 2%;
+}
+
+
+#main-container{
+	min-height: 100vh;
+	width: 100%;
+}
+
+#main-row{
+	height: 100%;
+	margin-top: 3%;
+}
+
+/*results*/
+	#results{
+		height: auto;
+		width: 100%;
+		padding: 0;
+	}
+
+	.result{
+		padding-left: 0;
+		padding-right: 0;
+		height: auto;
+		margin-bottom: 1%;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 14px;
+	}
+
+	.cover{
+		background-color: red;
+		height: auto;
+		width: 75px;
+		border-top: 1px solid black;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	.bookInfo{
+		height: 100%;
+		width: 95%;
+		border-top: 1px solid black;
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	.title {
+		font-size: 22px;
+		text-align: left;
+	}
+
+	.bookAuthor{
+		font-size: 18px;
+		text-align: left;
+	}
+
+
+	.location{
+		font-size: 10px;
+	}
+
+	.icon{
+		width: 12px;
+		height: 12px;
+		background-color: red;
+		margin-right: 1%;
+	}
+/**/
+
+/*author*/
+
+	#wishlists-container{
+		display: none;
+	}
+/**/
+
+
+
+@media screen and (min-width: 768px){
+	body{
+		text-align: center;
+		padding-bottom: 3%;
+		line-height: 1.75em;
+	}
+
+	#main-container{
+		min-height: auto;
+		width: 100%;
+	}
+
+	#main-row{
+		height: 100%;
+		margin-top: 3%;
+	}
+
+	/*results*/
+		#results{
+			height: auto;
+		}
+
+		.result{
+			padding-left: 0;
+			padding-right: 0;
+			width: 100%;
+			height: auto;
+			margin-bottom: 1%;
+		}
+
+		.cover{
+			background-color: red;
+			height: auto;
+			width: 100%;
+		}
+
+		.bookInfo{
+			height: 100%;
+		}
+
+		.title {
+			font-size: 22px;
+		}
+
+		.bookAuthor{
+			font-size: 18px;
+		}
+
+
+		.location{
+			text-align: right;
+		}
+
+		.format{
+			text-align: left;
+		}
+
+		.location{
+			font-size: 12px;
+		}
+
+		.icon{
+			width: 12px;
+			height: 12px;
+			background-color: red;
+			margin-right: 1%;
+		}
+	/**/
+
+	/*wishlist*/
+
+		#wishlists-container{
+			display: inherit;
+			text-align: center;
+			position: fixed;
+			right: 0
+		}
+
+		#wishlists-row{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#wishlistTitle{
+			text-align: center;
+		}
+
+		#wishlists{
+			height: auto;
+			border: 1px solid black;
+		}
+
+		#lists-container{
+			height: auto;
+			text-align: left;
+		}
+
+		#wishlistLists{
+			text-align: left;
+		}
+
+	/**/
+}
