@@ -50,28 +50,26 @@ header{
 		padding-left: 0;
 		padding-right: 0;
 		height: auto;
-		margin-bottom: 1%;
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 14px;
+		border-top: 1px solid black;
+	}
+
+	.wishlistSelect{
+
 	}
 
 	.cover{
 		background-color: red;
 		height: auto;
 		width: 75px;
-		border-top: 1px solid black;
-		border-left: 1px solid black;
-		border-bottom: 1px solid black;
 	}
 
 	.bookInfo{
 		height: 100%;
 		width: 95%;
-		border-top: 1px solid black;
-		border-right: 1px solid black;
-		border-bottom: 1px solid black;
 	}
 
 	.title {
@@ -84,9 +82,14 @@ header{
 		text-align: left;
 	}
 
+	.preview, .abbr{
+		display: none;
+	}
+
 
 	.location{
 		font-size: 10px;
+		text-align: right;
 	}
 
 	.icon{
@@ -131,9 +134,14 @@ header{
 		.result{
 			padding-left: 0;
 			padding-right: 0;
-			width: 100%;
+			width: 90%;
 			height: auto;
 			margin-bottom: 1%;
+			border: none;
+		}
+
+		.wishlistSelect{
+			width: 100%;
 		}
 
 		.cover{
@@ -144,6 +152,7 @@ header{
 
 		.bookInfo{
 			height: 100%;
+			border: 1px solid black;
 		}
 
 		.title {
@@ -163,6 +172,10 @@ header{
 
 		.format{
 			text-align: left;
+		}
+
+		.preview, .abbr{
+			display: initial;
 		}
 
 		.location{
