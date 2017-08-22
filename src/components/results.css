@@ -76,10 +76,12 @@ header{
 
 	.title {
 		font-size: 22px;
+		text-align: left;
 	}
 
 	.bookAuthor{
 		font-size: 18px;
+		text-align: left;
 	}
 
 
